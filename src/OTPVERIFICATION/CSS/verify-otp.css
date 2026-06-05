@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+}
+
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.otp-card {
+  width: 360px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.otp-card h2 {
+  margin-bottom: 10px;
+}
+
+.otp-card p {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.otp-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.otp-card button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.otp-card button:hover {
+  background: #5a67d8;
+}
+
+.resend-section {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.timer-text {
+  color: #777;
+  font-size: 13px;
+}
+
+.resend-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.resend-btn:hover {
+  text-decoration: underline;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+}
