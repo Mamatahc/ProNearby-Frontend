@@ -62,7 +62,7 @@ const OtpVerification = () => {
       setResending(true);
 
       await axios.post(
-        "http://localhost:8080/auth/resend-otp",
+        "http://pronearby-env.eba-uimsahab.eu-north-1.elasticbeanstalk.com/auth/resend-otp",
         {
           email: email
         }
