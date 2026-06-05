@@ -47,7 +47,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-  "http://localhost:8080/auth/signup",
+  "http://pronearby-env.eba-uimsahab.eu-north-1.elasticbeanstalk.com/auth/signup",
   {
     name: formData.name,
     email: formData.email,

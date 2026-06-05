@@ -31,7 +31,7 @@ const Login = () => {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:8080/auth/login",
+        "http://pronearby-env.eba-uimsahab.eu-north-1.elasticbeanstalk.com/auth/login",
         {
           email: formData.email,
           password: formData.password
